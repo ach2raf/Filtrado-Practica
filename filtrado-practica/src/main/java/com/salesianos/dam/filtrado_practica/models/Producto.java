@@ -1,6 +1,8 @@
 package com.salesianos.dam.filtrado_practica.models;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 public class Producto {
 
@@ -8,7 +10,7 @@ public class Producto {
 
     private String nombre;
 
-    private
+    private List<String> marcas= new ArrayList<>();
 
 
 }
